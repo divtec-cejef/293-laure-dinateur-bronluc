@@ -88,3 +88,32 @@ nav ul li a {
 nav ul li a:hover {
     color: #2ec4b6;
 }
+
+main {
+    margin: 0 5%;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+footer nav {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+
+footer nav li {
+    display: inline-block;
+}
+
+footer img {
+    width: 50px;
+    padding: 30px;
+    filter: grayscale(1);
+}
+footer img:hover {
+    filter: grayscale(0);
+    transition: filter 500ms linear;
+}
