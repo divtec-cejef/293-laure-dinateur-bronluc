@@ -39,17 +39,22 @@ a {
 /* Entete du site */
 header {
     background-color: #011627;
-    padding: 10px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 header .logo {
-    text-align: center;
+    font-family: "Changa One", cursive;
 }
 
 header .logo .nom {
     color: #2EC4B6;
+    font-size: 1.75rem;
+    line-height: .8;
+    margin: 1rem 0;
 }
 
 header .logo .metier {
-
+    margin: -5px;
 }
