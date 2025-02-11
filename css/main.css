@@ -101,56 +101,63 @@ nav {
     margin-top: 20px;
 }
 
-.accueil {
+header nav ul li.accueil {
     display: none;
+}
+
+header nav ul {
+
 }
 
 nav ul {
     padding: 0;
     margin: 0 10px;
-}
-
-nav ul li {
-    display: inline-block;
     list-style: none;
-    padding: 0;
 }
 
-nav ul li a {
-    font-size: 800px;
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    font-weight: 800;
+    color: #fdfffc;
     text-space: 30px;
     padding: 15px 10px;
 }
 
-nav ul li a:hover {
+header nav a:hover,
+header nav a.actif{
     color: #2ec4b6;
 }
 
+
+
 main {
-    margin: 0 5%;
+    padding: 0 5%;
 }
 
 footer {
-    padding-top: 50px;
+    margin: 50px 0;
     text-align: center;
 }
 
-footer nav {
-    display: inline-block;
-    list-style: none;
+footer nav ul{
+    list-style-type: none;
     padding: 0;
 }
 
 footer nav li {
     display: inline-block;
+    margin: 0 15px;
 }
 
-footer img {
-    width: 50px;
-    padding: 30px;
-    filter: grayscale(1);
+footer nav img {
+    max-height: 50px;
+    filter: grayscale(100%);
+    transition: all 500ms linear;
 }
-footer img:hover {
+footer nav img:hover {
     filter: grayscale(0);
-    transition: filter 500ms linear;
+    transform: rotate(-20deg);
 }
